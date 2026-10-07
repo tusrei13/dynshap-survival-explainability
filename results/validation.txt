@@ -1,0 +1,10 @@
+Verified on 2026-10-07:
+- Official source .py files match pinned GitHub commit byte-for-byte.
+- 15 official and 200 extension runs have finite recorded metrics.
+- Exact empirical marginal Shapley sums to prediction minus empirical background mean.
+- Exact historical marginal contributions are zero for the latest-visit-only predictor.
+- Exact Shapley independently recovers coefficients of an additive game.
+- Survival outputs lie in [0,1] and do not increase with horizon.
+- Maximum extension local accuracy residual: 1.1102230246251563e-16.
+- LaTeX compiled with bibliography; no undefined citations, missing glyphs or overfull boxes.
+- All 15 preview pages visually inspected.
