@@ -1,0 +1,14 @@
+Date: 2026-10-07
+Python 3.12.14
+numpy 2.3.5
+scipy 1.17.0
+pandas 2.2.3
+matplotlib 3.10.8
+scikit-learn 1.8.0
+torch 2.14.1+cpu
+tqdm 4.70.1
+OPENBLAS_NUM_THREADS=1
+OMP_NUM_THREADS=1
+Upstream d47989841a86dfaf10b6cb3dbf98a43005429045
+Source snapshot compared byte-for-byte against pinned revision for every .py file.
+Fixed model, synthetic data only; no clinical training reproduction.
