@@ -1,0 +1,32 @@
+{
+  "official_mean": {
+    "seed": {
+      "Kernel": 2.0,
+      "Sampling": 2.0,
+      "Temporal": 2.0
+    },
+    "rmse_to_marginal": {
+      "Kernel": 0.00017910518141340848,
+      "Sampling": 0.00014163723106516262,
+      "Temporal": 0.014912473345464153
+    },
+    "residual_to_empirical_baseline": {
+      "Kernel": 3.278738436389197e-06,
+      "Sampling": 9.885610848433163e-16,
+      "Temporal": 0.003593592660977172
+    },
+    "historical_abs_share": {
+      "Kernel": 0.0059031972548561195,
+      "Sampling": 0.0,
+      "Temporal": 0.3130872120487208
+    },
+    "seconds": {
+      "Kernel": 1.0160423399996943,
+      "Sampling": 0.8143007400038187,
+      "Temporal": 0.1383849999983795
+    }
+  },
+  "extension_mean": "scenario   method            \nlinear     Linear temporal       0.001430\n           Quadratic temporal    0.001565\nnonlinear  Linear temporal       0.043998\n           Quadratic temporal    0.002236",
+  "total_seconds": 18.684794000000693,
+  "python": "3.12.10"
+}
